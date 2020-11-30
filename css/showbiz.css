@@ -1,0 +1,15 @@
+*{padding: 0;margin: 0;}
+
+.slide-tin-showbiz .tieu-diem-tuan {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: tahoma;
+    color: white;
+    line-height: 19px;
+    padding: 3px 9px 3px 7px;
+    text-transform: uppercase;
+    background-color: #FF5E34;
+}
+
+
+

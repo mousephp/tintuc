@@ -1,0 +1,311 @@
+
+*{padding: 0;margin: 0;}
+
+.header-content-dl {
+}
+
+
+
+/*TIN-DAU-TRANG-DL*/
+
+
+.tin-dau-trang-dl-col-right__.title a {
+	line-height: 30px;
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+	font-family: tahoma;
+}
+
+.tin-dau-trang-dl-col-right__.title {
+	background: #F58323;
+	max-height: 30%;
+	padding: 10px;
+}
+
+.tin-dau-trang-dl-left__title a {
+	color: #ffffff;
+	font-size: 34px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: tahoma;
+}
+
+.tin-dau-trang-dl-left__title {
+	position: absolute;
+	left: 22px;
+	top: 65%;
+	/* line-height: 32px; */
+}
+
+.tin-dau-trang-dl-col-left__anh-tin {
+	position: absolute;
+}
+
+
+.tin-dau-trang-dl-col-left {
+	position: relative;
+	height: 432px;
+}
+
+.tin-dau-trang-dl-col-right {
+	width: 32%;
+}
+
+.tin-dau-trang-dl-col-left {
+	position: relative;
+	width: 67%;
+	margin-right: auto;
+}
+
+.tin-dau-trang-dl {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+/*END TIN-DAU-TRANG-DL*/
+
+
+
+
+/* container-fluid--header-dl*/
+*{padding: 0;margin: 0;}
+
+.khoang-padding-header-dl {
+    padding: 0;
+}
+
+a.sub-am-thuc {color: #797979;background: #F3F8F8;/* margin-top: 1px; */display: inline-block;}
+
+a.sub-du-lich, a.sub-am-thuc {
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 12px 58px;
+}
+
+a.sub-du-lich {
+    color: #F58423;
+    background: #FDFCFA;
+}
+
+.header-content-dl {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    max-width: 500px;
+    margin-left: -250px;
+    text-align: center;
+}
+
+.container-fluid--header-dl {
+    background-image: url(../images/dulich/dl23.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+/*end container-fluid--header-dl*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px)
+{
+	/*TIN-DAU-TRANG-DL*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-dl-col-left__anh-tin {
+		position: unset;
+	}
+
+	h4.tin-dau-trang-dl-left__title {
+		position: unset;
+		/* z-index: 11; */
+		/* margin-top: 311px; */
+	}
+
+	.tin-dau-trang-dl-col-left .tin-dau-trang-dl-left__title a {
+		color: #9F224E;
+		font-size: 5vw;
+		position: initial;
+		font-weight: normal;
+		/* top: 59%; */
+	}
+
+	.tin-dau-trang-dl-col-left {
+		position: unset;
+		/* margin-bottom: 200px; */
+	}
+
+
+	/*END TIN-DAU-TRANG-DL*/
+}
+
+
+
+@media screen and (max-width:640px)
+{
+	/*TIN-DAU-TRANG-DL*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-dl-col-left {
+		width: 100%;
+		height: 375px;
+	}
+
+	.tin-dau-trang-dl .tin-dau-trang-dl-col-left {
+		min-height: 367px;
+	}
+
+	.tin-dau-trang-dl-col-right {
+		display: none;
+	}
+	/*END TIN-DAU-TRANG-DL*/
+}
+
+
+@media screen and (max-width: 767px)
+{
+	/*TIN-DAU-TRANG-DL*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-dl-col-right .tin-dau-trang-dl-col-right__.title a {
+		font-size: 17px;
+		line-height: 21px;
+	}
+
+	.tin-dau-trang-dl-col-left .tin-dau-trang-dl-left__title a {
+		/* font-size: 26px; */
+		line-height: 23px;
+		/* width: 366px; */
+	}
+
+	.tin-dau-trang-dl-col-left .tin-dau-trang-dl-left__title {
+		top: 57%;
+		/* margin-top: 0; */
+	}
+
+	.tin-dau-trang-dl .tin-dau-trang-dl-col-left {
+		height: 310px;
+	}
+	/*END TIN-DAU-TRANG-DL*/
+}
+
+
+@media screen and (max-width: 991px)
+{
+	/*TIN-DAU-TRANG-DL*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-dl-left__title a {
+	}
+
+	.tin-dau-trang-dl-left__title {
+		top: 63%;
+	}
+
+	.tin-dau-trang-dl .tin-dau-trang-dl-col-left {
+		height: 329px;
+	}
+	/*END TIN-DAU-TRANG-DL*/
+}
+
+@media screen and (max-width: 1199px)
+{
+	/*TIN-DAU-TRANG-DL*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-dl-col-right__.title a {
+		font-size: 20px;
+	}
+
+	.tin-dau-trang-dl-left__title a {
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.tin-dau-trang-dl-col-left {
+		height: 356px;
+	}
+	/*END TIN-DAU-TRANG-DL*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+////////////////////
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+*{padding: 0;margin: 0;}
+
+
+/* TIN DAU TRANG */
+*{padding: 0;margin: 0;}
+
+.tin-dau-trang__title-tt .thoi-gian {
+    margin-bottom: 0;
+}
+
+.tin-dau-trang__title-tt a {
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: tahoma;
+    line-height: 34px;
+    letter-spacing: 2px;
+}
+
+.tin-dau-trang__title-tt {
+    position: absolute;
+    top: 76.5%;
+    padding-left: 22px;
+    max-width: 90%;
+    line-height: 35px;
+}
+
+.tin-dau-trang__anh img {
+    background-size: cover;
+    width: 750px;
+}
+
+.tin-dau-trang__anh {
+    position: relative;
+    background-size: cover;
+    max-width: 750px;
+}
+
+
+
+
+/*END TIN DAU TRANG */
+
+
+
+
+
+.banner-fixed{
+	left: 67.5%;
+top: 0%;
+	position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width:320px)
+{
+
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+	/* TIN DAU TRANG */
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang__title-tt .thoi-gian {
+    display: none;
+}
+
+.tin-dau-trang .tin-dau-trang__title-tt {
+    overflow: hidden;
+    /* height: 50px; */
+    width: 384px;
+}
+
+.tin-dau-trang .tin-dau-trang__title-tt h4 {
+    margin-top: 2%;
+}
+
+.tin-dau-trang .tin-dau-trang__title-tt h4 a {
+    line-height: 17px;
+    font-size: 14px;
+}
+	/*END TIN DAU TRANG */
+}
+
+
+
+@media screen and (max-width:640px)
+{
+	/* TIN DAU TRANG */
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang  .tin-dau-trang__title-tt a {
+    font-size: 4vw;
+    letter-spacing: 0px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.tin-dau-trang .tin-dau-trang__title-tt {
+    margin-top: -12.3%;
+}
+
+.tin-dau-trang__anh .tin-dau-trang__title-tt {
+    margin-top: -11%;
+    top: 21%;
+}
+
+	/*END TIN DAU TRANG */
+}
+
+
+
+
+@media screen and (max-width: 767px)
+{
+	/* TIN DAU TRANG */
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang .tin-dau-trang__title-tt {
+    /* padding-top: 87px; */
+    /* margin-bottom: 7%; */
+    top: 94.4%;
+    /* padding-bottom: 20%; */
+}
+
+.tin-dau-trang__title-tt h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+	/*END TIN DAU TRANG */
+}
+
+
+
+
+@media screen and (max-width: 991px)
+{
+	/* TIN DAU TRANG */
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang__title-tt {
+    margin-top: -10%;
+    top: 60%;
+}
+
+	/*END TIN DAU TRANG */
+}
+
+
+
+@media  screen and (max-width: 1199px)
+{
+	/* TIN DAU TRANG */
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang__title-tt a {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.tin-dau-trang__title-tt {
+    top: 75%;
+}
+
+
+
+
+	/*END TIN DAU TRANG */
+}
+
+
+
+
+@media  screen and (min-width: 1200px)
+{
+	
+}

@@ -1,0 +1,154 @@
+*{padding: 0;margin: 0;}
+
+
+
+/*TIN DAU TRANG KHAC*/
+*{padding: 0;margin: 0;}
+
+.tin-dau-trang-col-right {
+    width: 29%;
+}
+
+.duon-dan-tc--the-gioi .title-chinh {
+	/* display: block; */
+}
+
+.tin-dau-trang-col-right__.title a {
+	color: #333;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.tin-dau-trang-col-left__tom-tat {
+	color: #333;
+	letter-spacing: 0.3px;
+}
+
+.tin-dau-trang-col-left .thoi-gian {
+	padding-top: 9px;
+	margin-bottom: 0;
+}
+
+.tin-dau-trang-col-left {
+	/* padding-bottom: 25px; */
+	width: 69%;
+	margin-right: auto;
+}
+
+.tin-dau-trang-khac {display: flex;width: 100%;justify-content: space-around;padding-bottom: 25px;}
+
+.tin-dau-trang-col-left__title a {
+	color: #333;
+	font-weight: bold;
+	font-size: 24.5px;
+	font-family: tahoma;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+
+/*TIN DAU TRANG KHAC*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px)
+{
+	/*TIN DAU TRANG KHAC*/
+
+.tin-dau-trang-col-left {
+    width: 100%;
+}
+
+/*
+
+.tin-dau-trang-col-left__tom-tat {
+    overflow: hidden;
+}
+
+.tin-dau-trang-col-left__title {
+    overflow: hidden;
+}
+
+.tin-dau-trang-col-left__anh-tin img {
+    overflow: hidden;
+}
+
+.tin-dau-trang-col-left {
+    width: 450px;
+      overflow-x: hidden;
+}
+
+*/
+.tin-dau-trang-col-right {
+    display: none;
+}
+
+
+	/*END TIN DAU TRANG KHAC*/
+}
+
+
+
+
+
+@media screen and (max-width:640px)
+{
+	/*TIN DAU TRANG KHAC*/
+
+.tin-dau-trang-col-left__title a {
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.tin-dau-trang-col-left__title {
+    margin-top: 3px;
+}
+	/*END TIN DAU TRANG KHAC*/
+}
+
+
+
+
+@media screen and (max-width: 767px){
+	/*TIN DAU TRANG KHAC*/
+
+.tin-dau-trang-col-left__tom-tat {
+    height: 50px;
+    width: 100px;
+}
+	/*END TIN DAU TRANG KHAC*/
+
+}
+
+
+
+
+@media screen and (max-width: 991px){
+	/*TIN DAU TRANG KHAC*/
+	/*END TIN DAU TRANG KHAC*/
+}

@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0;}
+
+
+
+
+
+
+/* GIAO DUC (tin-dau-trang-col-right)*/
+*{padding: 0;margin: 0;}
+
+.tin-dau-trang-col-right__tin ul li a {
+	font-size: 14px;
+	line-height: 20px;
+	color: #1f1818c7;
+	text-decoration: none;
+	font-family: tahoma;
+	/* font-weight: 600; */
+}
+
+.tin-dau-trang-col-right__tin ul li {
+	list-style: none;
+	border-top: #DCE2E7 1px solid;
+	padding: 7px 0;
+}
+
+.tin-dau-trang-col-right__tin ul li:nth-child(1) {
+	margin-top: 24px;
+}
+
+
+/*END GIAO DUC (tin-dau-trang-col-right)*/
+
+
+
+
+
+@media screen and (max-width: 480px)
+{
+
+}
+
+
+
+
+
+@media screen and (max-width:640px)
+{
+	/* GIAO DUC (tin-dau-trang-col-right)*/
+	*{padding: 0;margin: 0;}
+
+	.tin-dau-trang-col-right__tin ul li:nth-child(3) {
+		display: none;
+	}
+
+	.tin-dau-trang-col-right__tin ul li:nth-child(4) {
+		display: none;
+	}
+	/*END GIAO DUC (tin-dau-trang-col-right)*/
+}
+
+
+
+
+@media screen and (max-width: 767px)
+{
+	/* GIAO DUC (tin-dau-trang-col-right)*/
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang-col-right__tin ul li:nth-child(4) {
+    display: none;
+}
+	/*END GIAO DUC (tin-dau-trang-col-right)*/
+}
+
+
+
+
+@media screen and (max-width: 991px)
+{
+	/* GIAO DUC (tin-dau-trang-col-right)*/
+	*{padding: 0;margin: 0;}
+
+.tin-dau-trang-col-right__tin ul li:nth-child(3) {
+    display: none;
+}.tin-dau-trang-col-right__tin ul li:nth-child(4) {
+    display: none;
+}
+	/*END GIAO DUC (tin-dau-trang-col-right)*/
+}
